@@ -1,0 +1,304 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "children": [
+      "menu-item#menu-categorias",
+      "menu-item#menu-item-01",
+      "menu-item#menu-item-licencias-01",
+      "menu-item#menu-item-outlet-02",
+      "menu-item#menu-item-tiendas-01",
+      "menu-item#menu-item-losMasVendidos-01",
+      "menu-item#menu-item-08"
+    ],
+    "props": {
+      "blockClass": "main-menu-items"
+    }
+  },
+  "menu-item#menu-item-01": {
+    "props": {
+      "id": "menu-item-menu-loNuevo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "loNuevo",
+        "href": "/140?map=productClusterIds",
+        "tagTitle": "Lo Nuevo",
+        "text": "Lo Nuevo"
+      },
+      "blockClass": ["menu-title", "menu-title-item-01"]
+    }
+  },
+  "menu-item#menu-item-losMasVendidos-01": {
+    "props": {
+      "id": "menu-item-menu-losMasVendidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "loMasVendidos",
+        "href": "/lo-mas-vendido",
+        "tagTitle": "Los Más Vendidos",
+        "text": "Últimas Unidades"
+      },
+      "blockClass": ["menu-title", "menu-title-item-01", "menu-title-orden"]
+    }
+  },
+  "menu-item#menu-item-outlet-02": {
+    "props": {
+      "id": "menu-item-menu-item-02",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "href": "/outlet",
+        "tagTitle": "Outlet",
+        "text": "Outlet"
+      },
+      "blockClass": ["menu-title", "menu-title-item-02"]
+    }
+  },
+  "menu-item#menu-item-licencias-01": {
+    "props": {
+      "id": "menu-item-menu-item-licencias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "tagTitle": "Licencias",
+        "text": "Colecciones"
+      },
+      "blockClass": ["menu-title", "menu-title-item-licencias"]
+    },
+    "blocks": ["submenu#menu-licencias"]
+  },
+
+  "menu-item#marvel": {
+    "props": {
+      "id": "menu-item-menu-Marvel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "href": "/marvel?_q=marvel&map=ft&order=OrderByTopSaleDESC",
+        "tagTitle": "Marvel",
+        "text": "Marvel"
+      },
+      "blockClass": ["menu-title", "menu-title-item-marvel"]
+    }
+  },
+  "menu-item#adventure-time-02": {
+    "props": {
+      "id": "menu-item-menu-Marvel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "href": "/adventure%20time?_q=Adventure%20time&map=ft",
+        "tagTitle": "Marvel",
+        "text": "Adventure Time"
+      },
+      "blockClass": ["menu-title", "menu-title-item-marvel"]
+    }
+  },
+  "menu-item#candy-series": {
+    "props": {
+      "id": "menu-item-menu-Marvel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "href": "/adventure%20time?_q=Adventure%20time&map=ft",
+        "tagTitle": "Candy Series",
+        "text": "Candy Series"
+      },
+      "blockClass": ["menu-title", "menu-title-item-marvel"]
+    }
+  },
+  "menu-item#serie-de-frutas": {
+    "props": {
+      "id": "menu-item-menu-Marvel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "href": "/adventure%20time?_q=Adventure%20time&map=ft",
+        "tagTitle": "Serie De Frutas",
+        "text": "Serie De Frutas"
+      },
+      "blockClass": ["menu-title", "menu-title-item-marvel"]
+    }
+  },
+  "menu-item#xico": {
+    "props": {
+      "id": "menu-item-menu-Marvel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "href": "/adventure%20time?_q=Adventure%20time&map=ft",
+        "tagTitle": "Xico",
+        "text": "Xico"
+      },
+      "blockClass": ["menu-title", "menu-title-item-marvel"]
+    }
+  },
+  "menu-item#disney": {
+    "props": {
+      "id": "menu-item-menu-Marvel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "href": "/",
+        "tagTitle": "Disney",
+        "text": "Disney"
+      },
+      "blockClass": ["menu-title", "menu-title-item-marvel"]
+    }
+  },
+  "menu-item#pantera-rosa": {
+    "props": {
+      "id": "menu-item-menu-Marvel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "href": "/adventure%20time?_q=Adventure%20time&map=ft",
+        "tagTitle": "La Pantera Rosa",
+        "text": "La Pantera Rosa"
+      },
+      "blockClass": ["menu-title", "menu-title-item-marvel"]
+    }
+  },
+  "menu-item#we-bare-bears": {
+    "props": {
+      "id": "menu-item-menu-we-bare-bears",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "href": "/we%20bares%20bear?_q=we%20bare%20bear&map=ft&order=OrderByTopSaleDESC",
+        "tagTitle": "We Bare Bears",
+        "text": "Osos Escandolosos"
+      },
+      "blockClass": ["menu-title", "menu-title-item-we-bare-bears"]
+    }
+  },
+  "menu-item#plaza-sesamo": {
+    "props": {
+      "id": "menu-item-menu-adventure-time",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "href": "/155?map=productClusterIds",
+        "tagTitle": "Adventure Time",
+        "text": "Plaza Sésamo"
+      },
+      "blockClass": ["menu-title", "menu-title-item-adventure-time"]
+    }
+  },
+
+  "menu-item#menu-item-tiendas-01": {
+    "props": {
+      "id": "menu-item-menu-tiendas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "href": "/tiendas",
+        "tagTitle": "Tiendas",
+        "text": "Tiendas"
+      },
+      "blockClass": ["menu-title", "menu-title-item-03"]
+    }
+  },
+  "menu-item#menu-item-04": {
+    "props": {
+      "id": "menu-item-menu-tips",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "href": "/recomendador",
+        "tagTitle": "Miniso Tips",
+        "text": "Miniso Tips"
+      },
+      "blockClass": ["menu-title", "menu-title-item-04"]
+    }
+  },
+  "menu-item#menu-item-snacks": {
+    "props": {
+      "id": "menu-item-menu-snacks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "href": "/snacks",
+        "tagTitle": "Snacks",
+        "text": "Snacks"
+      },
+      "blockClass": ["menu-title", "menu-title-item-snacks"]
+    }
+  },
+  "menu-item#menu-item-08": {
+    "props": {
+      "id": "menu-item-menu-tips",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "href": "mailto:tiendaenlinea@miniso.pe",
+        "tagTitle": "Contáctanos",
+        "text": "Contáctanos"
+      },
+      "blockClass": ["menu-title", "menu-title-item-05"]
+    }
+  },
+
+  "menu-item#menu-paraTi": {
+    "props": {
+      "id": "menu-item-menu-paraTi",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "paraTi",
+        "href": "/",
+        "tagTitle": "Para Ti",
+        "text": "Para Ti"
+      },
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#menu-promociones": {
+    "props": {
+      "id": "menu-item-menu-promociones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "promociones",
+        "href": "/142?map=productClusterIds",
+        "tagTitle": "Promociones",
+        "text": "Promociones"
+      },
+      "blockClass": ["menu-title", "promociones"]
+    }
+  },
+  "menu-item#menu-mundoMiniso": {
+    "props": {
+      "id": "menu-item-menu-mundoMiniso",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "mundoMiniso",
+        "href": "/",
+        "tagTitle": "Mundo Miniso",
+        "text": "Mundo Miniso"
+      },
+      "blockClass": "menu-title"
+    }
+  }
+}

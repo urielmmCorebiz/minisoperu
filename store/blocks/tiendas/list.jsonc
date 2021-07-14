@@ -1,0 +1,186 @@
+{
+  "flex-layout.row#tiendas-row-lista-tiendas": {
+    "title": "Costanera",
+    "children": ["flex-layout.col#tiendas-col-chile"],
+    "props": {
+      "blockClass": "tiendas-row-ags"
+    }
+  },
+  "flex-layout.col#tiendas-col-chile": {
+    "children": [
+      "flex-layout.row#tiendas-row1-peru",
+      "flex-layout.row#tiendas-row2-peru",
+      "flex-layout.row#tiendas-row3-peru",
+      "flex-layout.row#tiendas-row4-peru",
+      "flex-layout.row#tiendas-row5-peru",
+      "flex-layout.row#tiendas-row6-peru"
+    ],
+    "props": {
+      "blockclass": "tiendas-col-ags"
+    }
+  },
+  "flex-layout.row#tiendas-row1-peru": {
+    "children": [
+      "rich-text#tiendas-tienda-salaverry-01",
+      "rich-text#tiendas-tienda-lima-sur-01",
+      "rich-text#tiendas-tienda-mall-aventura-arequipa-01"
+    ],
+    "props": {
+      "blockClass": "tiendas-row"
+    }
+  },
+  "flex-layout.row#tiendas-row2-peru": {
+    "children": [
+      "rich-text#tiendas-tienda-la-reina-01",
+      "rich-text#tiendas-tienda-los-dominicos-01",
+      "rich-text#tiendas-tienda-real-plaza-arequipa-01"
+    ],
+    "props": {
+      "blockClass": "tiendas-row"
+    }
+  },
+  "flex-layout.row#tiendas-row3-peru": {
+    "children": [
+      "rich-text#tiendas-tienda-mall-tobalaba-01",
+      "rich-text#tiendas-tienda-mall-paseo-quilin-01",
+      "rich-text#tiendas-tienda-mall-marina-01"
+    ],
+    "props": {
+      "blockClass": "tiendas-row"
+    }
+  },
+  "flex-layout.row#tiendas-row4-peru": {
+    "children": [
+      "rich-text#tiendas-tienda-miniso-independencia-01",
+      "rich-text#tiendas-tienda-open-kennedy-01",
+      "rich-text#tiendas-tienda-imperio-01"
+    ],
+    "props": {
+      "blockClass": "tiendas-row"
+    }
+  },
+  "flex-layout.row#tiendas-row5-peru": {
+    "children": [
+      "rich-text#tiendas-tienda-arauco-maipu-01",
+      "rich-text#tiendas-tienda-rivera-navarrete-01",
+      "rich-text#tiendas-tienda-mega-plaza-01"
+    ],
+    "props": {
+      "blockClass": "tiendas-row"
+    }
+  },
+  "flex-layout.row#tiendas-row6-peru": {
+    "children": [
+      //"rich-text#tiendas-tienda-mall-aventura-arequipa-01",
+      //"rich-text#tiendas-tienda-real-plaza-arequipa-01"
+    ],
+    "props": {
+      "blockClass": "tiendas-row"
+    }
+  },
+  "rich-text#tiendas-tienda-salaverry-01": {
+    "title": "Salaverry",
+    "props": {
+      "text": "**¡Tienda abierta!**\n**Nombre de la tienda:**Miniso Salaverry \n **Dirección:** Av. Punta del Este Nro. 2403 (Int.Lc-309B) Lima - Lima - Jesús María",
+      "blockClass": "info-tienda"
+    }
+  },
+  "rich-text#tiendas-tienda-lima-sur-01": {
+    "title": "Plaza Lima Sur",
+    "props": {
+      "text": "**¡Tienda abierta!**\n**Nombre de la tienda:**Miniso Plaza Lima Sur \n**Dirección:** Av. Prolon Paseo de la Repub. Nro. S/N (Int. 114, 116) Lima - Lima - Chorrillos",
+      "blockClass": "info-tienda"
+    }
+  },
+  "rich-text#tiendas-tienda-la-reina-01": {
+    "title": "Bellavista",
+    "props": {
+      "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Bellavista\n**Dirección:** Av. Mariscal Oscar R. Benavides Nro. 3866 (Int.A-1058) Prov. Const. del Callao - Prov. Const. del Callao - Bellavista",
+      "blockClass": "info-tienda"
+    }
+  },
+  "rich-text#tiendas-tienda-los-dominicos-01": {
+    "title": "Plaza Villa María",
+    "props": {
+      "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Plaza Villa María\n **Dirección:** Av. Pachacutec Nro. 3721 (3721-3781 Int.Lc-206/Lc-207) Lima - Lima - Villa María del Triunfo",
+      "blockClass": "info-tienda"
+    }
+  },
+  "rich-text#tiendas-tienda-mall-tobalaba-01": {
+    "title": "Plaza Jockey 2",
+    "props": {
+      "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Plaza Jockey 2\n **Dirección:** Av. Javier Prado Este Nro. 4200 Urb. Santa Constanza (Int. A1-135) Lima - Lima - Santiago de Surco",
+      "blockClass": "info-tienda"
+    }
+  },
+  "rich-text#tiendas-tienda-mall-paseo-quilin-01": {
+    "title": "Mall del Sur",
+    "props": {
+      "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Mall del Sur\n  **Dirección:** Av. Los Lirios Nro. 301 Urb. Entel. (Int. LCS-1058) Lima - Lima - San Juan de Miraflores ",
+      "blockClass": "info-tienda"
+    }
+  },
+  "rich-text#tiendas-tienda-mall-marina-01": {
+    "title": "Plaza Norte",
+    "props": {
+      "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Plaza Norte\n **Dirección:** Av. Alfredo Mendiola Nro. 1400 (N-135 y N-137) Lima - Lima - Independencia",
+      "blockClass": "info-tienda"
+    }
+  },
+  "rich-text#tiendas-tienda-miniso-independencia-01": {
+    "title": "San Miguel",
+    "props": {
+      "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso San Miguel\n **Dirección:** Av. La Marina No. 2000-2100 (NC 131 - 132 - 133) Lima - Lima - San Miguel ",
+      "blockClass": "info-tienda"
+    }
+  },
+  "rich-text#tiendas-tienda-open-kennedy-01": {
+    "title": "Puruchuco",
+    "props": {
+      "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Puruchuco\n **Dirección:** Av. Nicolás Ayllon Nro 4770 (Lc-155/Lc-156) Lima - Lima - Ate",
+      "blockClass": "info-tienda"
+    }
+  },
+  "rich-text#tiendas-tienda-imperio-01": {
+    "title": "Santa Anita",
+    "props": {
+      "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Santa Anita\n **Dirección:** Av. Carretera Centra Nro. 111 (Int.-120B+) Lima - Lima - Santa Anita",
+      "blockClass": "info-tienda"
+    }
+  },
+  "rich-text#tiendas-tienda-arauco-maipu-01": {
+    "title": "Plaza de Sol",
+    "props": {
+      "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Plaza de Sol\n **Dirección:** Av. San Martín Nro. 727 (727-763 P17-G01-L106) Ica- Ica - Ica",
+      "blockClass": "info-tienda"
+    }
+  },
+  "rich-text#tiendas-tienda-rivera-navarrete-01": {
+    "title": "Rivera Navarrete",
+    "props": {
+      "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Rivera Navarrete\n **Dirección:** Cal. Chinchon 1018 Lima - Lima - San Isidro",
+      "blockClass": "info-tienda"
+    }
+  },
+  "rich-text#tiendas-tienda-mega-plaza-01": {
+    "title": "Megaplaza",
+    "props": {
+      "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Megaplaza\n **Dirección:** Av. Alfredo Mendiola Nro. 3698 Urb. Industrial Panamericana Norte (Int. 325 - 325A - 325B) Lima - Lima - Independencia",
+      "blockClass": "info-tienda"
+    }
+  },
+  "rich-text#tiendas-tienda-mall-aventura-arequipa-01": {
+    "title": "Mall Aventura Arequipa",
+    "props": {
+      "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Mall Aventura Arequipa\n **Dirección:** Av. Porongoche 500 A-1024,1026,1028, CC Mall Aventura Porongoche - Paucarpata - Arequipa",
+      "blockClass": "info-tienda"
+    }
+  },
+  "rich-text#tiendas-tienda-real-plaza-arequipa-01": {
+    "title": "Real Plaza Arequipa",
+    "props": {
+      "text": "**¡Tienda abierta!**\n**Nombre de la tienda:** Miniso Real Plaza Arequipa\n **Dirección:** Av. Ejército 1009, Int. 104-105, CC Real Plaza - Cayma - Arequipa ",
+      "blockClass": "info-tienda"
+    }
+  }
+}

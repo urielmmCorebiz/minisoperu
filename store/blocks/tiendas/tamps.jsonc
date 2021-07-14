@@ -1,0 +1,37 @@
+{
+  "flex-layout.row#tiendas-row-tamps": {
+    "title": "tamps",
+    "children": ["flex-layout.col#tiendas-col-tamps"],
+    "props": {
+      "blockClass": "tiendas-row-tamps"
+    }
+  },
+  "flex-layout.col#tiendas-col-tamps": {
+    "children": [
+      "rich-text#subtitle-tiendas-tamps",
+      "flex-layout.row#tiendas-row1-tamps"
+    ],
+    "props": {
+      "blockclass": "tiendas-col-tamps"
+    }
+  },
+  "rich-text#subtitle-tiendas-tamps": {
+    "props": {
+      "text": "#### Cúcuta",
+      "blockClass": "subtitle-tiendas"
+    }
+  },
+  "flex-layout.row#tiendas-row1-tamps": {
+    "children": ["rich-text#tiendas-tienda1-tamps"],
+    "props": {
+      "blockClass": "tiendas-row"
+    }
+  },
+  "rich-text#tiendas-tienda1-tamps": {
+    "title": "tienda-1",
+    "props": {
+      "text": "<span></span>\n**Nombre de la tienda:** Miniso Centro Comercial Jardín Plaza\n**Dirección:** Anillo vial oriental # 13-70 \n Local: 61",
+      "blockClass": "info-tienda"
+    }
+  }
+}
